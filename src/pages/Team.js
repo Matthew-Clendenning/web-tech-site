@@ -3,6 +3,7 @@ import placeholder from '../assets/images/placeholder-person-square.png';
 import varsith from '../assets/images/varsith.png';
 import navya from '../assets/images/navya.png';
 import matthew from '../assets/images/matthew.png';
+import sagar from '../assets/images/Sagar.png'
 
 function Team() {
     return (
@@ -47,7 +48,7 @@ function Team() {
           </Card>
           <Card>
             <div className='img-container'>
-              <img src={placeholder} alt='Varsith'/>
+              <img src={sagar} alt='Sagar Badgujar'/>
             </div>
             <div className='teammate-info'>
               <h1>Sagar Badgujar</h1>
