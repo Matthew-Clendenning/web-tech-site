@@ -1,17 +1,10 @@
+import '../styles/App.css';
 const Footer = () => {
   return (
-    <>
-      <footer>
-        <p style={{ 
-          fontSize: '18px',
-          textAlign: 'center',
-          color: 'white',
-          background: '#516059',
-          padding: '30px'
-        }}>A Survey on the QUIC Protocol</p>
-      </footer>
-    </>
-  )
+    <footer className="footer">
+      A Survey on the QUIC Protocol
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
