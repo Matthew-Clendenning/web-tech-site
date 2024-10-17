@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+      <footer>
+        <p>A Survey on the QUIC Protocol</p>
+      </footer>
+    </>
   )
 }
 
