@@ -1,9 +1,9 @@
 import Card from '../components/Card.jsx';
-import placeholder from '../assets/images/placeholder-person-square.png';
 import varsith from '../assets/images/varsith.png';
 import navya from '../assets/images/navya.png';
 import matthew from '../assets/images/matthew.png';
-import sagar from '../assets/images/Sagar.png'
+import sagar from '../assets/images/Sagar.png';
+import naveen from '../assets/images/naveen.JPG';
 
 function Team() {
     return (
@@ -12,7 +12,7 @@ function Team() {
         <div className='team'>
           <Card>
             <div className='img-container'>
-              <img src={varsith} alt='Varsith'/>
+              <img src={varsith} alt='Varsith Reddy Legala'/>
             </div>
             <div className='teammate-info'>
               <h1>Varsith Reddy Legala</h1>
@@ -21,7 +21,7 @@ function Team() {
           </Card>
           <Card>
             <div className='img-container'>
-              <img src={matthew} alt='Varsith'/>
+              <img src={matthew} alt='Matthew Clendenning'/>
             </div>
             <div className='teammate-info'>
               <h1>Matthew Clendenning</h1>
@@ -30,7 +30,7 @@ function Team() {
           </Card>
           <Card>
             <div className='img-container'>
-              <img src={placeholder} alt='Varsith'/>
+              <img src={naveen} alt='Naveen'/>
             </div>
             <div className='teammate-info'>
               <h1>Naveen</h1>
@@ -39,7 +39,7 @@ function Team() {
           </Card>
           <Card>
             <div className='img-container'>
-              <img src={navya} alt='Varsith'/>
+              <img src={navya} alt='Navya Charitha Bavirisetti'/>
             </div>
             <div className='teammate-info'>
               <h1>Navya Charitha Bavirisetti</h1>
