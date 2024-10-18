@@ -1,42 +1,86 @@
+
 .header {
-    display: grid;
-    padding: 30px;
-    padding-bottom: 0;
-    text-align: center;
-    background: #516059; 
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.header h1 {
-    font-size: 32px;
-}
-
-.navbar {
-    font-size: clamp(1rem, 2vh, 3rem);
-    background-color: #516059;
-}
-
-.navbar ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    background-color: #495e57; 
+    position: relative;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+
+  .navbar ul {
+    display: flex;
     list-style-type: none;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-li a {
-    display: block;
-    color: #fff;
-    padding: 10px 10px;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
     text-decoration: none;
-}
+    color: white;
+  }
 
-li a:hover {
-    background-color: #ffffff;
-    color: #516059;
-    border-radius: 10px;
-}
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 20px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #575757;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
