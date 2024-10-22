@@ -34,7 +34,6 @@ const Header = () => {
             <li><Link to="/content" onClick={toggleSidebar}>Content</Link></li>
             <li><Link to="/taxonomy" onClick={toggleSidebar}>Taxonomy</Link></li>
             <li><Link to="/team" onClick={toggleSidebar}>Team</Link></li>
-            <li><Link to="/resources" onClick={toggleSidebar}>Resources</Link></li>
           </ul>
         </div>
         <div className="navbar" id="navbar">
@@ -43,7 +42,6 @@ const Header = () => {
             <li><Link to="/content">Content</Link></li>
             <li><Link to="/taxonomy">Taxonomy</Link></li>
             <li><Link to="/team">Team</Link></li>
-            <li><Link to="/resources">Resources</Link></li>
           </ul>
         </div>
       </div>

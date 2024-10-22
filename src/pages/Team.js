@@ -1,10 +1,9 @@
 import Card from '../components/Card.jsx';
+import naveen from '../assets/images/naveen.JPG';
 import varsith from '../assets/images/varsith.png';
 import navya from '../assets/images/navya.png';
 import matthew from '../assets/images/matthew.png';
-import sagar from '../assets/images/Sagar.png';
-import naveen from '../assets/images/naveen.JPG';
-
+import sagar from '../assets/images/Sagar.png'
 function Team() {
     return (
       <>
@@ -12,38 +11,38 @@ function Team() {
         <div className='team'>
           <Card>
             <div className='img-container'>
-              <img src={varsith} alt='Varsith Reddy Legala'/>
+              <img src={varsith} alt='Varsith'/>
             </div>
             <div className='teammate-info'>
               <h1>Varsith Reddy Legala</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Varsith is a graduate study at Saint Louis University in this project he mainly worked as a content Validator and aloso contributed for the development of the website and making the sidebar responsive.</p>
             </div>
           </Card>
           <Card>
             <div className='img-container'>
-              <img src={matthew} alt='Matthew Clendenning'/>
+              <img src={matthew} alt='Varsith'/>
             </div>
             <div className='teammate-info'>
               <h1>Matthew Clendenning</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Matthew is an undergraduate student studying at Saint Louis University. Focused mainly on the design and development of the website.</p>
             </div>
           </Card>
           <Card>
             <div className='img-container'>
-              <img src={naveen} alt='Naveen'/>
+              <img src={naveen} alt='Varsith'/>
             </div>
             <div className='teammate-info'>
               <h1>Naveen</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Naveen is a graduate student at Saint Louis University He was responsible for co-ordinating with the group and also worked on the content on the survey.</p>
             </div>
           </Card>
           <Card>
             <div className='img-container'>
-              <img src={navya} alt='Navya Charitha Bavirisetti'/>
+              <img src={navya} alt='Varsith'/>
             </div>
             <div className='teammate-info'>
               <h1>Navya Charitha Bavirisetti</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Navya is a graduate student at Saint Louis University she helped varsith with the content in the survey </p>
             </div>
           </Card>
           <Card>
@@ -52,12 +51,11 @@ function Team() {
             </div>
             <div className='teammate-info'>
               <h1>Sagar Badgujar</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Sagar is a graduate student at Saint Louis University he helped in finding different resources and also helped in survey paper</p>
             </div>
           </Card>
         </div>
       </>
     )
 }
-
 export default Team
